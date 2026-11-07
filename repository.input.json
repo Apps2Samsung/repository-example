@@ -1,10 +1,10 @@
 {
   "repository": {
     "id": "io.github.apps2samsung.pilot",
-    "name": "Apps2Samsung pilot repository",
+    "name": "Apps2Samsung example repository",
     "maintainer": "Apps2Samsung",
-    "description": "Test repository for independent sources in Apps2Samsung and TV-Store.",
-    "homepage": "https://github.com/Apps2Samsung/repository-pilot"
+    "description": "Example of an independent repository: two Apps2Samsung apps that are also in the official catalog.",
+    "homepage": "https://github.com/Apps2Samsung/repository-example"
   },
   "providers": [
     {

@@ -1,16 +1,20 @@
-# Apps2Samsung pilot repository (temporary)
+# Apps2Samsung example repository
 
-**Temporary test repository: it will be deleted once the end-to-end test is done. Don't add it to Apps2Samsung for everyday use.**
+A working **independent repository**, built from the
+[template in tizen-community-packages](https://github.com/Apps2Samsung/tizen-community-packages/tree/main/templates/independent-repo).
+Look here to see what a finished setup looks like: [`repository.input.json`](repository.input.json),
+the [publish workflow](.github/workflows/publish-repository.yml) and its
+[runs](https://github.com/Apps2Samsung/repository-example/actions). The format is in
+[docs/repositories.md](https://github.com/Apps2Samsung/tizen-community-packages/blob/main/docs/repositories.md).
 
-A signed independent repository, built from the
-[tizen-community-packages template](https://github.com/Apps2Samsung/tizen-community-packages/tree/main/templates/independent-repo),
-to test independent sources end to end in Apps2Samsung and TV-Store. It lists two Apps2Samsung apps that
-are also in the official catalog, so it also exercises "Also offered by" and per-source updates.
+It lists two Apps2Samsung apps, Reolink Viewer and Overscan, which are also in the official catalog.
+There's no need to add it for everyday use; you can, to try how a repository looks in Apps2Samsung
+("Also offered by", the key check, Send sources to TV).
 
-Repository URL to add in Apps2Samsung:
+Repository URL:
 
 ```
-https://apps2samsung.github.io/repository-pilot/repository.json.signed
+https://apps2samsung.github.io/repository-example/repository.json.signed
 ```
 
 Key fingerprint (compare it with what Apps2Samsung shows):
@@ -18,3 +22,6 @@ Key fingerprint (compare it with what Apps2Samsung shows):
 ```
 f4085b51158ba86be21552c39a720ae0cf27c670989b930c02a7896784eb589c
 ```
+
+The repository id is `io.github.apps2samsung.pilot`: it started as the pilot for end-to-end testing,
+and an id can never change.
