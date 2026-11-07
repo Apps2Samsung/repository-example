@@ -1,0 +1,28 @@
+{
+  "repository": {
+    "id": "io.github.apps2samsung.pilot",
+    "name": "Apps2Samsung pilot repository",
+    "maintainer": "Apps2Samsung",
+    "description": "Test repository for independent sources in Apps2Samsung and TV-Store.",
+    "homepage": "https://github.com/Apps2Samsung/repository-pilot"
+  },
+  "providers": [
+    {
+      "id": "reolink-viewer",
+      "category": "casting",
+      "url": "Apps2Samsung/ReolinkViewer",
+      "displayName": "Reolink Viewer",
+      "take": 1,
+      "source_url": "https://github.com/Apps2Samsung/ReolinkViewer"
+    },
+    {
+      "id": "overscan",
+      "category": "tools",
+      "url": "Apps2Samsung/Overscan",
+      "displayName": "Overscan",
+      "take": 1,
+      "source_url": "https://github.com/Apps2Samsung/Overscan",
+      "match": "^Overscan-(tizen[0-9]+|nui)[.]tpk$"
+    }
+  ]
+}
