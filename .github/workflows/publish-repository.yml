@@ -46,7 +46,7 @@ jobs:
       - uses: actions/checkout@v4
         with:
           repository: Apps2Samsung/tizen-community-packages
-          ref: ae3472bdf08b78fc370afc91a37803900a844732
+          ref: 0b0d41b0a99c3c1f46e56b3915f9509001e134f0
           path: _tcp
           persist-credentials: false
 
