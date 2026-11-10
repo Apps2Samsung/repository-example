@@ -1,7 +1,11 @@
 # Apps2Samsung example repository
 
-A working **independent repository**, built from the
-[template in tizen-community-packages](https://github.com/Apps2Samsung/tizen-community-packages/tree/main/templates/independent-repo).
+A working **independent repository**, set up by hand from the
+[manual setup in tizen-community-packages](https://github.com/Apps2Samsung/tizen-community-packages/tree/main/templates/independent-repo).
+
+> **Want your own?** Start from [Apps2Samsung/repository-template](https://github.com/Apps2Samsung/repository-template)
+> instead: you set it up by clicking, with no terminal and no JSON.
+
 Look here to see what a finished setup looks like: [`repository.input.json`](repository.input.json),
 the [publish workflow](.github/workflows/publish-repository.yml) and its
 [runs](https://github.com/Apps2Samsung/repository-example/actions). The format is in
