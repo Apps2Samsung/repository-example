@@ -11,6 +11,12 @@ the [publish workflow](.github/workflows/publish-repository.yml) and its
 [runs](https://github.com/Apps2Samsung/repository-example/actions). The format is in
 [docs/repositories.md](https://github.com/Apps2Samsung/tizen-community-packages/blob/main/docs/repositories.md).
 
+Each app shows with its own icon: the publish workflow takes it out of the package and publishes it
+next to the list, named with its hash (`icon` and `icon_digest` in
+[`repository.json`](https://apps2samsung.github.io/repository-example/repository.json)). The site's
+[front page](https://apps2samsung.github.io/repository-example/) has the address, the key fingerprint
+and the apps.
+
 It lists two Apps2Samsung apps, Reolink Viewer and Overscan, which are also in the official catalog.
 There's no need to add it for everyday use; you can, to try how a repository looks in Apps2Samsung
 ("Also offered by", the key check, Send sources to TV).
